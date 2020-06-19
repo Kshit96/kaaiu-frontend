@@ -1,4 +1,5 @@
 import React from 'react';
+import NavigationSection from "../components/NavigationSection";
 
 export default class LandingPageContainer extends React.Component {
   constructor(props) {
