@@ -7,7 +7,9 @@ export default class LandingPageContainer extends React.Component {
   }
 
   render() {
-    return (<>Hello world</>)
+    return (
+        <NavigationSection/>
+    )
   }
 
 }
