@@ -1,14 +1,9 @@
 import React from 'react';
-import image from '../assets/cover-picture.jpg'
-import {Row, Col} from "antd";
 import './NavigationSection.css'
 
-export default function NavigationSection () {
+export default function NavigationSection(props) {
   return (
-      <Row>
-        <Col span={24} flex={1}>
-        <img src = { image } className={'NavigationBackgroundImage'}/>
-        </Col>
-      </Row>
+      <div className={'navigation-background'}>
+      </div>
   )
 }

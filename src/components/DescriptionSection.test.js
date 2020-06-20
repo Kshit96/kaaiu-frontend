@@ -1,5 +1,5 @@
 import React from 'react';
-import descriptionSection from './descriptionSection';
+import DescriptionSection from './DescriptionSection';
 import {shallow} from "enzyme";
 
 
@@ -7,7 +7,7 @@ import {shallow} from "enzyme";
 describe('NavigationSection', () => {
   it('renders without crashing', () => {
 
-    const wrapper = shallow(<descriptionSection/>)
+    const wrapper = shallow(<DescriptionSection/>)
 
     const imageComponent = wrapper.find('.description')
 

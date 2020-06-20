@@ -1,7 +1,7 @@
 import React from 'react';
-import navigationSection from "../components/navigationSection";
-import descriptionSection from "../components/descriptionSection";
-import {Row} from "antd";
+import NavigationSection from "../components/NavigationSection";
+import DescriptionSection from "../components/DescriptionSection";
+import ImagesList from "../components/ImagesList";
 
 export default class LandingPageContainer extends React.Component {
   constructor(props) {
@@ -12,18 +12,9 @@ export default class LandingPageContainer extends React.Component {
   render() {
     return (
         <>
-          <Row>
-            {/*<navigationSection/>*/}
-            <div className={'description'}>
-              sac
-            </div>
-          </Row>
-          <Row>
-            {/*<descriptionSection/>*/}
-            <div className={'navigation-background'}>
-              ads
-            </div>
-          </Row>
+          <NavigationSection/>
+          <DescriptionSection/>
+          <ImagesList/>
         </>
     )
   }

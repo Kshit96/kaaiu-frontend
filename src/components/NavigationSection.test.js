@@ -9,7 +9,7 @@ describe('NavigationSection', () => {
 
     const wrapper = shallow(<NavigationSection/>)
 
-    const imageComponent = wrapper.find('.NavigationBackgroundImage')
+    const imageComponent = wrapper.find('.navigation-background')
 
     expect(imageComponent).toHaveLength(1);
 
