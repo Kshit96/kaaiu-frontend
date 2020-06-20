@@ -1,0 +1,23 @@
+.image-list{
+  width: 100%;
+  height: 100%
+}
+
+.more-inspirations{
+  padding: 20px;
+  align-content: center;
+}
+
+.ant-btn.more-inspirations__button{
+  border-radius: 0px;
+  color: #282c34;
+}
+
+
+.ant-btn.more-inspirations__button:hover{
+  border-radius: 0px;
+  background-color: goldenrod;
+  color: white;
+  border-color: goldenrod;
+}
+
