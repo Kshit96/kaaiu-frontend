@@ -14,4 +14,14 @@ describe('NavigationSection', () => {
     expect(imageComponent).toHaveLength(1);
 
   });
+
+  it('renders without crashing', () => {
+
+    const wrapper = shallow(<NavigationSection/>)
+
+    const imageComponent = wrapper.find('.navigation-background')
+
+    expect(imageComponent).toHaveLength(1);
+
+  });
 })

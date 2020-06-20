@@ -5,12 +5,12 @@ import {Col, Row} from "antd";
 export default function NavigationSection(props) {
   return (
       <Row className={'navigation-background'}>
-        <Row>
-          <Col>
+        <Row span={24}>
+          <Col span={8}>
+          </Col >
+          <Col span={8}>
           </Col>
-          <Col>
-          </Col>
-          <Col>
+          <Col span={8}>
           </Col>
         </Row>
       </Row>
