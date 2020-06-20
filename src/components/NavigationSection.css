@@ -17,5 +17,15 @@
 }
 
 .company-name{
-  height:450px;
+  height:350px;
+}
+
+.ant-btn.submit-design{
+  color: #282c34;
+}
+
+.ant-btn.submit-design:hover{
+  background-color: goldenrod;
+  color: white;
+  border-color: goldenrod;
 }

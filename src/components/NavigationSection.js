@@ -1,6 +1,6 @@
 import React from 'react';
 import './NavigationSection.css'
-import {Col, Row} from "antd";
+import {Button, Col, Row} from "antd";
 import logo from "../assets/logo type 2 .png"
 import {Typography, Space} from 'antd';
 import MenuOutlined from "@ant-design/icons/es/icons/MenuOutlined";
@@ -15,7 +15,7 @@ export default function NavigationSection(props) {
           <img src={logo} className={"logo"}/>
         </Col>
         <Col push={4} span={12}>
-          <Row style={{height: 50}} justify={"space-around"} align={"bottom"}>
+          <Row style={{height: 70}} justify={"space-around"} align={"bottom"}>
             <Text style={{fontSize: 20}}>about</Text>
             <Text style={{fontSize: 20}}>how it works</Text>
             <Text style={{fontSize: 20}}>explore</Text>
@@ -28,6 +28,7 @@ export default function NavigationSection(props) {
                 around the region<br/>
               making that amazing furniture idea of
                 yours a reality</Text>
+              <Button className={'submit-design'} shape={"round"}>submit your designs</Button>
             </Space>
           </Row>
         </Col>
