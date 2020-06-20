@@ -15,13 +15,13 @@ describe('NavigationSection', () => {
 
   });
 
-  it('renders without crashing', () => {
+  it('renders logo',()=>{
 
     const wrapper = shallow(<NavigationSection/>)
 
-    const imageComponent = wrapper.find('.navigation-background')
+    const imageComponent = wrapper.find('.logo')
 
     expect(imageComponent).toHaveLength(1);
+  })
 
-  });
 })

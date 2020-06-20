@@ -3,10 +3,9 @@
 
 
 .navigation-background {
-  background-image: url(../assets/cover-picture.jpg);
-  background-position: center center;
+  background-image: url(../assets/cover-picture2.png);
   background-repeat: no-repeat;
-  background-size: cover;
-  height: 1200px;
-  margin: -300px 0px 0px -100px
+  background-size: contain;
+  height: 1000px;
+  width: auto
 }
