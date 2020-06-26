@@ -1,7 +1,6 @@
 import React from 'react';
+import LandingPageContainer from "./containers/LandingPageContainer/LandingPageContainer";
 import './App.css';
-import LandingPageContainer from "./containers/LandingPageContainer";
-import 'antd/dist/antd.css';
 
 function App() {
   return (

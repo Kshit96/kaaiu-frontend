@@ -24,4 +24,13 @@ describe('NavigationSection', () => {
     expect(imageComponent).toHaveLength(1);
   })
 
+ it('renders 6 Text components',()=>{
+
+    const wrapper = shallow(<NavigationSection/>)
+
+    const imageComponent = wrapper.find(Text)
+
+    expect(imageComponent).toHaveLength(6);
+  })
+
 })

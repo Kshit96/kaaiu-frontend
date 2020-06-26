@@ -1,9 +1,9 @@
 import React from 'react';
 import LandingPageContainer from './LandingPageContainer';
 import {shallow} from "enzyme";
-import NavigationSection from "../components/NavigationSection";
-import DescriptionSection from "../components/DescriptionSection";
-import ImagesList from "../components/ImagesList"
+import NavigationSection from "../../components/NavigationSection/NavigationSection";
+import DescriptionSection from "../../components/DescriptionSection/DescriptionSection";
+import ImagesList from "../../components/ImagesList/ImagesList"
 
 
 
