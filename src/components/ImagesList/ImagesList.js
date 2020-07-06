@@ -1,9 +1,9 @@
 import React from 'react';
 import './ImagesList.css'
 import {Button, Col, Image, Row} from "react-bootstrap";
-import Image2 from "../../assets/list-1.jpeg";
-import Image1 from "../../assets/list-2.jpg";
-import Image3 from "../../assets/list-3.jpg";
+import Image2 from "../../assets/imageList/list-1.jpeg";
+import Image1 from "../../assets/imageList/list-2.jpg";
+import Image3 from "../../assets/imageList/list-3.jpg";
 
 export default function ImagesList(props) {
 
