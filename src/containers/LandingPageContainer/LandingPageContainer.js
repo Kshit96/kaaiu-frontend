@@ -16,8 +16,8 @@ export default class LandingPageContainer extends React.Component {
         <>
           <NavigationSection/>
           <DescriptionSection/>
-          {/*<ImagesList/>*/}
-          {/*<ArtisanSection />*/}
+          <ImagesList/>
+          <ArtisanSection />
         </>
     )
   }

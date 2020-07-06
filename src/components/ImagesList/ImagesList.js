@@ -20,16 +20,17 @@ export default function ImagesList(props) {
   }
 
   return (
-      <Row md={3}>
-          {/*{imagesList.map((imageSource) => renderImages(imageSource))}*/}
-        <Col>a</Col>
-        <Col>a</Col>
-        <Col>a</Col>
-        {/*<Row>*/}
-        {/*  <Col>*/}
-        {/*    <Button border-radius={'0px'} size="large" className={'more-inspirations__button'}><b>more inspirations</b></Button>*/}
-        {/*  </Col>*/}
-        {/*</Row>*/}
-      </Row>
+      <>
+        <Row md={3}>
+          {imagesList.map((imageSource) => renderImages(imageSource))}
+        </Row>
+        <Row style={{paddingTop: '20px'}}>
+          <Col style={{paddingTop: '565px'}}>
+            <Button size="lg"
+                    className={'more-inspirations__button'}>more
+              inspirations</Button>
+          </Col>
+        </Row>
+      </>
   )
 }
