@@ -24,8 +24,8 @@ export default function ImagesList(props) {
         <Row md={3}>
           {imagesList.map((imageSource) => renderImages(imageSource))}
         </Row>
-        <Row style={{paddingTop: '20px'}}>
-          <Col style={{paddingTop: '565px'}}>
+        <Row style={{paddingTop: '20px', paddingBottom: '50px'}}>
+          <Col style={{paddingTop: '560px'}}>
             <Button size="lg"
                     className={'more-inspirations__button'}>more
               inspirations</Button>
