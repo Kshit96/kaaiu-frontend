@@ -15,9 +15,9 @@ export default function NavigationSection(props) {
         <Col md={{span: 6, offset: 1}} style={{justifyContent: 'center'}}>
 
           <Row>
-            <Col style={{fontSize: 20, textAlign: 'center'}}>about</Col>
-            <Col style={{fontSize: 20, textAlign: 'center'}}>how it works</Col>
-            <Col style={{fontSize: 20, textAlign: 'center'}}>explore</Col>
+            <Col style={{fontSize: 20}}>about</Col>
+            <Col style={{fontSize: 20}}>how it works</Col>
+            <Col style={{fontSize: 20}}>explore</Col>
           </Row>
 
           <Col className={"company-name-column"}
@@ -52,7 +52,7 @@ export default function NavigationSection(props) {
         <Col md={{span: 3, offset: 0}}>
           <Row>
             <Col md={"auto"}
-                 style={{fontSize: 20, color: "#1E90FF", textAlign: 'center'}}>Get
+                 style={{fontSize: 20, color: "#1E90FF"}}>Get
               Newsletter</Col>
             <Col md={"auto"} style={{
               fontSize: 20,
@@ -60,7 +60,7 @@ export default function NavigationSection(props) {
               textAlign: 'center'
             }}>Shop</Col>
             <Col md={"auto"}
-                 style={{fontSize: 20, color: "#1E90FF", textAlign: 'center'}}>Sign
+                 style={{fontSize: 20, color: "#1E90FF"}}>Sign
               In</Col>
             <Col md={"auto"}><Justify size={25}/></Col>
           </Row>

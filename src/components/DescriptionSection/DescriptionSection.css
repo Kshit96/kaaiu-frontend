@@ -4,3 +4,25 @@
   background-repeat: no-repeat;
   height: 1200px;
 }
+
+.description-paragraph {
+  padding-top: 130px
+}
+
+.sub-paragraph {
+  padding-top: 350px
+}
+
+.btn.find-out-more{
+  color: #282c34;
+  background-color: white;
+  border-width: thin;
+  border-color: #282c34;
+  border-radius: 0px;
+}
+
+.btn.find-out-more:hover{
+  background-color: goldenrod;
+  color: white;
+  border-color: goldenrod;
+}

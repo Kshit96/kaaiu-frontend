@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Nunito");
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
 body, html {
   margin: 0;
   font-family: 'Nunito', sans-serif!important;
@@ -13,7 +13,8 @@ body, html {
 
 .col{
   padding-left: 0px!important;
-  padding-right: 0px!important
+  padding-right: 0px!important;
+  text-align: center!important;
 
 }
 
