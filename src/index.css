@@ -1,15 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+
 body, html {
   margin: 0;
   font-family: 'Nunito', sans-serif!important;
-  /*-webkit-font-smoothing: antialiased;*/
-  /*-moz-osx-font-smoothing: grayscale;*/
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-/*code {*/
-/*  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',*/
-/*    monospace;*/
-/*}*/
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
 
 .col{
   padding-left: 0px!important;
