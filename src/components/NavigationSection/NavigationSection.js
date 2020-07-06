@@ -1,48 +1,71 @@
 import React from 'react';
 import './NavigationSection.css'
-import {Button, Col, Row} from "react-bootstrap";
-import logo from "../../assets/logo type 2 .png"
-import {Typography, Space} from 'antd';
-import MenuOutlined from "@ant-design/icons/es/icons/MenuOutlined";
-
-const {Title, Text, Link} = Typography;
+import {Button, Col, Image, Row} from "react-bootstrap";
+import logo from "../../assets/logo type 1 .png"
+import {Justify} from "react-bootstrap-icons";
 
 export default function NavigationSection(props) {
   return (
-      <Row span={24} className={'navigation-background'}>
+      <Row className={'navigation-background'}>
 
-        <Col span={2}>
-          <img src={logo} className={"logo"}/>
+        <Col md={2}>
+          <Image src={logo} className={"logo"} rounded fluid/>
         </Col>
 
-        <Col push={4} span={12}>
-          <Row style={{height: 70}} justify={"space-around"} align={"bottom"}>
-            <Text style={{fontSize: 20}}>about</Text>
-            <Text style={{fontSize: 20}}>how it works</Text>
-            <Text style={{fontSize: 20}}>explore</Text>
+        <Col md={{span: 6, offset: 1}} style={{justifyContent: 'center'}}>
+
+          <Row>
+            <Col style={{fontSize: 20, textAlign: 'center'}}>about</Col>
+            <Col style={{fontSize: 20, textAlign: 'center'}}>how it works</Col>
+            <Col style={{fontSize: 20, textAlign: 'center'}}>explore</Col>
           </Row>
 
-          <Row justify={"center"} align={"bottom"} className={"company-name"}>
-            <Space direction="vertical" style={{textAlign: "center"}}>
-              <Title level={1}>Kaaiu</Title>
-              <Text >At Kaaiu, We connect you
-                directly to furniture manufacturers
-                around the region<br/>
-              making that amazing furniture idea of
-                yours a reality</Text>
-              <Button className={'submit-design'} shape={"round"}>submit your designs</Button>
-            </Space>
+          <Col className={"company-name-column"}
+              style={{
+            color: '#d18f22',
+            fontSize: 40,
+            textAlign: 'center'
+          }}>
+            Kaaiu
+          </Col>
+
+          <Col className={"description-column"}
+              style={{
+            fontSize: 15,
+            textAlign: 'center'
+          }}>
+            At Kaaiu, We connect you
+            directly to furniture manufacturers
+            around the region<br/>
+            making that amazing furniture idea of
+            yours a reality
+          </Col>
+
+          <Col className={"submit-design-column"} style={{
+            textAlign: 'center'
+          }}>
+            <Button className={"submit-design"} size={"lg"} style={{fontSize: 15}}>submit your designs</Button>
+          </Col>
+
+        </Col>
+
+        <Col md={{span: 3, offset: 0}}>
+          <Row>
+            <Col md={"auto"}
+                 style={{fontSize: 20, color: "#1E90FF", textAlign: 'center'}}>Get
+              Newsletter</Col>
+            <Col md={"auto"} style={{
+              fontSize: 20,
+              color: "#1E90FF",
+              textAlign: 'center'
+            }}>Shop</Col>
+            <Col md={"auto"}
+                 style={{fontSize: 20, color: "#1E90FF", textAlign: 'center'}}>Sign
+              In</Col>
+            <Col md={"auto"}><Justify size={25}/></Col>
           </Row>
         </Col>
 
-        <Col push={4} span={6}>
-          <Row style={{height: 70}} justify={"space-around"} align={"bottom"}>
-            <Text style={{fontSize: 20, color: "#1E90FF"}}>Get Newsletter</Text>
-            <Text style={{fontSize: 20, color: "#1E90FF"}}>Shop</Text>
-            <Text style={{fontSize: 20, color: "#1E90FF"}}>Sign In</Text>
-            <MenuOutlined style={{fontSize: 30}}/>
-          </Row>
-        </Col>
       </Row>
   )
 }

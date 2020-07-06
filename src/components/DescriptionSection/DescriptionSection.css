@@ -1,6 +1,6 @@
-/*.description {*/
-/*  background-image: url(../../assets/hall-intro.jpg);*/
-/*  background-position: 5% 40%;*/
-/*  background-repeat: no-repeat;*/
-/*  height: 1200px;*/
-/*}*/
+.description {
+  background-image: url(../../assets/hall-intro.jpg);
+  background-position: 5% 40%;
+  background-repeat: no-repeat;
+  height: 1200px;
+}

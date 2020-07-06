@@ -1,12 +1,23 @@
-/*!*@import url("https://fonts.googleapis.com/css2?family=Nunito");*!*/
-/*body, html {*/
-/*  margin: 0;*/
-/*  font-family: 'Nunito', sans-serif;*/
-/*  -webkit-font-smoothing: antialiased;*/
-/*  -moz-osx-font-smoothing: grayscale;*/
-/*}*/
+@import url("https://fonts.googleapis.com/css?family=Nunito");
+body, html {
+  margin: 0;
+  font-family: 'Nunito', sans-serif!important;
+  /*-webkit-font-smoothing: antialiased;*/
+  /*-moz-osx-font-smoothing: grayscale;*/
+}
 
 /*code {*/
 /*  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',*/
 /*    monospace;*/
 /*}*/
+
+.col{
+  padding-left: 0px!important;
+  padding-right: 0px!important
+
+}
+
+.row{
+  margin-left: 0px!important;
+  margin-right: 0px!important;
+}
