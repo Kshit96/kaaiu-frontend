@@ -33,6 +33,12 @@ export default function Footer(props) {
         <Row className="justify-content-md-center" style={{paddingTop: '40px'}}>
           {logos.map((logo) => generateSponsorLogos(logo))}
         </Row>
+        <Row className="justify-content-md-center" style={{paddingTop: '40px'}}>
+          <Button className={'button-footer'} size={"lg"}>Submit Your Design</Button>
+          </Row>
+        <Row className="justify-content-md-center" style={{paddingTop: '40px'}}>
+          <Button className={'button-footer'} size={"lg"}>Get Newsletter</Button>
+        </Row>
       </>
   )
 

@@ -1,0 +1,13 @@
+.btn.button-footer{
+  color: #282c34;
+  background-color: white;
+  border-width: thin;
+  border-color: #282c34;
+  border-radius: 20px;
+}
+
+.btn.button-footer:hover{
+  background-color: goldenrod;
+  color: white;
+  border-color: goldenrod;
+}
